@@ -19,7 +19,7 @@ public class Desenvolvedora {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idDesenvolvedora;
 
-    private String nome;
+    private String nomeDesenvolvedora;
 
     private String pais;
 
