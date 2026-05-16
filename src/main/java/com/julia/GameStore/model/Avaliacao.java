@@ -18,7 +18,7 @@ public class Avaliacao {
 
     private Integer nota;
 
-    private String comentário;
+    private String comentario;
 
     @ManyToOne
     @JoinColumn(name = "idJogo")

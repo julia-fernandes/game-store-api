@@ -26,9 +26,7 @@ public class Jogo {
 
     private String descricao;
 
-
     @ManyToOne //muitos jogos podem ser de uma desenvolvedora
     @JoinColumn(name = "idDesenvolvedora") //define a chave estrangeira
     private Desenvolvedora desenvolvedora;
-
 }
